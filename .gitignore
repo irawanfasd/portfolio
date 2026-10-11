@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Data
+data/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Backup
+*.bak
+*.bak.*
+*.backup
+
+# Binary
+*.apk
+*.aab
+*.deb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
